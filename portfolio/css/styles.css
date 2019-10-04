@@ -1,0 +1,54 @@
+body {
+	background-color: rgb(211, 206, 196)
+}
+
+main {
+	background-color: white;
+	border: 8px solid black;
+	width: 400px;
+	height: 350px;
+	margin-left: 261px;
+	margin-top: 100px;
+	padding: 150px;
+	float: left;
+}
+
+.profile_pic {
+	height: 647px;
+	border: 8px solid black;
+	float: right;
+	margin-top: 100px;
+	margin-right: 261px;
+}
+
+h1 {
+	font-size: 4.5em;	
+	font-family: "freestyle script";
+	text-emphasis: bold;
+	text-align: center;
+	line-height: 0em;
+}
+h2 {
+	font-size: 1.6em;
+	font-family: "Arial";
+	text-align: center;
+	line-height: 0em;
+}
+#main-nav	{
+	font-size: 1.75em;	
+	color: black;
+	font-family: "freestyle script";
+	font-weight: bolder;
+	text-align: center;
+}
+
+#main-nav a:visited,
+#main-nav a {
+	text-decoration: none;
+	color: black;
+}
+#main-nav a:hover,
+#main-nav a:focus,
+#main-nav a:active {
+	text-decoration: underline;
+}
