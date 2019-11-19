@@ -1,0 +1,125 @@
+header {
+	width: 100%;
+	min-height: 150px;
+}
+.home-header {
+	width: 100%;
+	min-height: 125px;
+}
+body {
+	background-color: rgb(211, 206, 196);
+}
+
+main {
+	background-color: white;
+	width: 1250px;
+	border: 8px solid #000000;
+	height: 647px;
+	margin: auto;
+}
+
+#profile_pic {
+	float: right;
+}
+
+.writing {
+	float: left;
+	padding: 170px 119px;
+}
+
+h1 {
+	font-size: 4.5em;	
+	font-family: "freestyle script", Arial, sans-serif;
+	text-emphasis: bold;
+	text-align: center;
+	line-height: 0em;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	line-height: 0em;
+}
+
+#main-nav	{
+	font-size: 1.75em;	
+	color: black;
+	font-family: "freestyle script",Arial, sans-serif;
+	font-weight: bolder;
+	text-align: center;
+}
+#main-nav li:visited,
+#main-nav li{
+	text-decoration: none;
+	color: black;
+	list-style: none;
+}
+#main-nav li:hover,
+#main-nav li:focus,
+#main-nav li:active {
+	text-decoration: underline;
+}
+
+#secondary-nav ul li a{
+	width: 17%;
+	padding: 20px;
+	display: inline;
+	float: left;
+	text-align: center;
+	background: rgb(27, 27, 27);
+	color: #efefef;
+	border: .5px solid #fff;
+}
+#secondary-nav ul li a:hover,
+#secondary-nav ul li a:focus,
+#secondary-nav ul li a:active {
+	background: #efefef;
+	color: rgb(27,27,27);
+}
+#secondary-nav ul li {
+	list-style: none;
+}
+
+#work-content {
+	background-color: white;
+	border: 8px solid black;
+	padding-top: 20px;
+}
+#work-content p,
+#about-content p {
+	text-indent: 50px;
+}
+#work-paragraphs {
+	padding: 20px;
+	margin: auto 150px 0px 150px;
+}
+#work-paragraphs li {
+	text-align: center;
+	list-style: none;
+	margin: 0 15%;
+}
+#scheels {
+	float:left;
+}
+#evoke {
+	float: right;
+	height: 175px;
+}
+#about-content {
+	background-color: white;
+	border: 8px solid black;
+	columns: 2;
+}
+#about-paragraphs {
+	padding: 20px;
+	margin-left: 20%;
+	margin-top: 20%;
+}
+.about-img{
+	height: 100%;
+	float: right;
+}
+footer {
+	min-height: 100px;
+}
